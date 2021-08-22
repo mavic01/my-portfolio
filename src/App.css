@@ -1,4 +1,102 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-purple: #B980F0;
+  --primary-green: #297F87;
+}
+
+body {
+  font-family: 'Roboto Condensed' sans-serif;
+}
+
+/**********************************************NAVBAR*****************************************************/
+.logo {
+  width: 6.6875rem;
+}
+/*********nav or menu links**********/
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing: 0.0375rem;
+  cusror: pointer;
+}
+
+.nav-background {
+  background-color: #297F87 !important;
+  padding-right: 0.9375rem;
+  padding-left: 0.9375rem;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-white) !important; /*!important overides the bootstrap rules*/ 
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--primary-green);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {   /*referencin the active bootstrap class*/
+  border-top: 0.1875rem solid var(--primary-purple);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-purple);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +133,42 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
