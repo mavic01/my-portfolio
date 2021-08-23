@@ -5,7 +5,7 @@ import Navbar from './components/Navbar' //.js not necessary cos webpack already
 
 function App() {
   return (
-    <Navbar />
+    <h1>Hey Everyone</h1>
   );
 }
 
